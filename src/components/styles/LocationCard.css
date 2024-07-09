@@ -1,0 +1,39 @@
+.locationCard {
+    background-color: #062226;
+    color: white;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locationCard__title {
+    font-weight: 800;
+    text-align: center;
+}
+
+.locationCard__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locationCard__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.locationCard__label {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #aaaa;
+    margin-bottom: 0.8em;
+}
+
+.locationCard__value {
+    text-align: center;
+}
